@@ -164,7 +164,7 @@ If you have existing certificates and keys, you can run the server as follows to
     ssh3-server -cert /path/to/cert/or/fullchain -key /path/to/cert/private/key -url-path /ssh3
 
 > [!NOTE]
-> Similarly to OpenSSH, the server must be run with root priviledges to log in as other users.
+> Similarly to OpenSSH, the server must be run with root privileges to log in as other users.
 
 #### Authorized keys and authorized identities
 By default, the SSH3 server will look for identities in the `~/.ssh/authorized_keys` and `~/.ssh3/authorized_identities` files for each user.
